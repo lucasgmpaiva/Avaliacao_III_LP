@@ -15,19 +15,18 @@ using namespace std;
 
 class Corrida {
 protected:
-	int idCorrida;
 	vector<Sapo> sapos;
 
 public:
 	static int tamanho;
 	Corrida();
-	Corrida(int id, int tamanho, vector<Sapo> sapos);
+	Corrida(vector<Sapo> &sapos);
 	~Corrida();
-	int getIdCorrida();
-	void setIdCorrida(int id);
+	vector<Sapo> getSapos();
 	void realizarCorrida();
 	bool sapoRetardado();
 	void adicionarSapo();
+	void mostrarSapos();
 };
 
 #endif

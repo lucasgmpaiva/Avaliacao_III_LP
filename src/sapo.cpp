@@ -9,14 +9,16 @@
 #include "../include/sapo.hpp"
 #include "../include/corrida.hpp"
 
+int Sapo::IdSeguinte;
+
 Sapo::Sapo(){ // @suppress("Class members should be properly initialized")
 	this->distanciaPercorrida = 0;
 	this->pulosDados = 0;
 }
 
 Sapo::Sapo(string nome,int totalPulos, int corridasRealizadas, int saltoMaximo, int vitorias, int empates){
-		this->id = IdSeguinte + 1;
-		IdSeguinte++;
+		this->id = Sapo::IdSeguinte + 1;
+		Sapo::IdSeguinte++;
 		this->nome = nome;
 		this->distanciaPercorrida = 0;
 		this->pulosDados = 0;
@@ -109,7 +111,7 @@ int Sapo::getVitorias(){
 }
 
 void Sapo::setVitorias(int vitorias){
-	this->vitorias;
+	this->vitorias = vitorias;
 }
 
 void Sapo::novaVitoria(){
@@ -133,7 +135,6 @@ void Sapo::pular(){
 		this->distanciaPercorrida += pulo;
 		this->pulosDados++;
 		this->totalPulos++;
-		cout << "|---------------------------------------------|" << endl;
 		cout << "Nome: " << this->nome << endl;
 		cout << "ID: " << this->id << endl;
 		cout << "Pulo Dado: " << pulo << endl;
@@ -150,7 +151,7 @@ ostream& operator << (ostream &o, Sapo &sapo){
 			<< "Vitorias: " << sapo.getVitorias() << endl
 			<< "Potência: " << sapo.getSaltoMaximo() << endl
 			<< "Total de Pulos: " << sapo.getTotalPulos() << endl
-			<< "|---------------------------------------------|" << endl;
+			<< "|_____________________________________________|" << endl;
 
 	return o;
 }

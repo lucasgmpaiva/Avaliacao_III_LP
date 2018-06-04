@@ -14,9 +14,7 @@ Corrida::Corrida() { // @suppress("Class members should be properly initialized"
 
 }
 
-Corrida::Corrida(int id, int tamanhoA, vector<Sapo> sapos) {
-	this->idCorrida = id;
-	Corrida::tamanho = tamanhoA;
+Corrida::Corrida(vector<Sapo> &sapos) {
 	this->sapos = sapos;
 }
 
@@ -24,12 +22,8 @@ Corrida::~Corrida() {
 
 }
 
-int Corrida::getIdCorrida() {
-	return this->idCorrida;
-}
-
-void Corrida::setIdCorrida(int id) {
-	this->idCorrida = id;
+vector<Sapo> Corrida::getSapos(){
+	return this->sapos;
 }
 
 bool Corrida::sapoRetardado() {
@@ -85,15 +79,17 @@ void Corrida::realizarCorrida() {
 		}
 	}
 
+	cout << "CORRIDA FINALIZADA!" << endl
+			<< "|____________________________________________|" << endl;
+
 	cout << "|-------------------Ranking------------------|" << endl;
-	for(int i = 1; i<rank; i ++){
+	for(int i = 1; i<rank; i++){
 		for(int j = 0; j < (int)this->sapos.size(); j++){
-			if(this->sapos[i].getPosicaoRanking() == i){
+			if(this->sapos[j].getPosicaoRanking() == i){
 				cout << "Em " << i << "º Lugar: " << endl
-						<< "Nome: " << this->sapos[i].getNome() << endl
-						<< "ID: " << this->sapos[i].getId() << endl
-						<< "Pulos: " << this->sapos[i].getPulosDados() << endl;
-				cout << "|--------------------------------------------|" << endl;
+						<< "Nome: " << this->sapos[j].getNome() << endl
+						<< "ID: " << this->sapos[j].getId() << endl
+						<< "Pulos: " << this->sapos[j].getPulosDados() << endl;
 			}
 		}
 	}
@@ -108,6 +104,7 @@ void Corrida::realizarCorrida() {
 }
 
 void Corrida::adicionarSapo(){
+	cin.ignore();
 	cout << "|------------- Adicionando Sapo -------------|" << endl;
 	string nome;
 	cout << "Informe o nome do sapo:" << endl;
@@ -119,5 +116,15 @@ void Corrida::adicionarSapo(){
 	Sapo sapo(nome, 0, 0, potencia, 0, 0);
 	this->sapos.push_back(sapo);
 	cout << nome << " adicionado à corrida!" << endl;
-	cout << "|------------------------------ -------------|" << endl;
+}
+
+void Corrida::mostrarSapos(){
+	cout << "|------------- Sapos Da Corrida -------------|" << endl;
+	for(int i = 0; i <(int) this->sapos.size(); i++){
+		cout << "|----------------- Sapo ---------------------|" << endl;
+		cout << "ID: " << this->sapos[i].getId() << endl
+				<< "Nome: " << this->sapos[i].getNome() << endl
+				<< "Potência: " << this->sapos[i].getSaltoMaximo() << endl
+				<< "|____________________________________________|" << endl;
+	}
 }

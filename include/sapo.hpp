@@ -1,7 +1,7 @@
 /**
 * @author Lucas Gabriel Matias Paiva
 * @file sapo.hpp
-* @brief Cabeçalho da classe sapo que define como será o sapo da corrida
+* @brief Cabeçalho da classe sapo que define como serão implementados os sapos da corrida
 * @since 29/05/18
 * @date 04/06/18
 */
