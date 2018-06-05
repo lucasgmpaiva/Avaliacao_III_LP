@@ -8,6 +8,8 @@
 
 #include "../include/sapo.hpp"
 #include "../include/corrida.hpp"
+#include <stdlib.h>
+#include <time.h>
 
 int Sapo::IdSeguinte;
 
@@ -131,7 +133,7 @@ void Sapo::novoEmpate(){
 void Sapo::pular(){
 	int pulo;
 	if(this->distanciaPercorrida <= Corrida::tamanho){
-		pulo = rand()%this->saltoMaximo+1;
+		pulo = rand()%((this->saltoMaximo)+1);
 		this->distanciaPercorrida += pulo;
 		this->pulosDados++;
 		this->totalPulos++;

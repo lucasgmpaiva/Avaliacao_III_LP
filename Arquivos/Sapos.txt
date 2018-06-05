@@ -1,28 +1,35 @@
 1
 Michael Jackson
-1
-346
+3
+433
 5
 0
 0
 2
 Elvis Presley
-1
-337
+3
+425
 5
 0
 0
 3
 Bob Dylan
-1
-325
+3
+401
 5
 0
 0
 4
 Lucas Gabriel
-1
-325
+3
+401
 5
+2
+0
+5
+Felipe Massa
+1
+22
+10
 1
 0

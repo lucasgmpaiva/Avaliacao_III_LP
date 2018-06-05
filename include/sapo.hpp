@@ -10,9 +10,9 @@
 #define SAPO_H
 
 #include <string>
-	using namespace std;
-#include <time.h>
 #include <iostream>
+using namespace std;
+
 
 class Sapo{
 private:
