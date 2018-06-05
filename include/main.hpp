@@ -12,6 +12,7 @@
 	#include "corrida.hpp"
 	#include "pista.hpp"
 	#include "opPista.hpp"
+	#include "funcArquivos.hpp"
 
 
 #endif

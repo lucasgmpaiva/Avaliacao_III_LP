@@ -10,22 +10,9 @@
 
 int main(){
 	vector<Sapo> sapos;
-	//nome, totalPulos, corridasRealizadas, saltoMaximo, vitorias, empates
-	Sapo s1("Elvis Presley", 0, 0, 5, 0, 0);
-	sapos.push_back(s1);
-	Sapo s2("Michael Jackson", 0, 0, 8, 0, 0);
-	sapos.push_back(s2);
-	Sapo s3("Bob Dylan", 0, 0, 7, 0, 0);
-	sapos.push_back(s3);
 	vector<Pista> pistas;
-	//tamanho
-	Pista p1(500);
-	pistas.push_back(p1);
-	Pista p2(250);
-	pistas.push_back(p2);
-	Pista p3(1000);
-	pistas.push_back(p3);
-
+	lerArquivoSapos(sapos);
+	lerArquivoPistas(pistas);
 	Corrida corrida(sapos);
 
 	int opcao;
@@ -51,15 +38,18 @@ int main(){
 				selectPista(pistas);
 				corrida.realizarCorrida();
 				sapos = corrida.getSapos();
+				escreverArquivoSapos(sapos);
 				break;
 
 			case 2:
 				corrida.adicionarSapo();
 				sapos = corrida.getSapos();
+				escreverArquivoSapos(sapos);
 				break;
 
 			case 3:
 				criarPista(pistas);
+				escreverArquivoPistas(pistas);
 				break;
 
 			case 4:
@@ -80,6 +70,9 @@ int main(){
 
 
 	}while(opcao != 0);
+
+	escreverArquivoSapos(sapos);
+	escreverArquivoPistas(pistas);
 
 	return 0;
 }

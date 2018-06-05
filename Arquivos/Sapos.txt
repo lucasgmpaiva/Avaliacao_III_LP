@@ -1,0 +1,28 @@
+1
+Michael Jackson
+1
+346
+5
+0
+0
+2
+Elvis Presley
+1
+337
+5
+0
+0
+3
+Bob Dylan
+1
+325
+5
+0
+0
+4
+Lucas Gabriel
+1
+325
+5
+1
+0
