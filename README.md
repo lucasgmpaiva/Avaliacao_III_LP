@@ -9,7 +9,7 @@ Aluno do 3º Período do curso de Bacharelado em Tecnologia da Informação (BTI
   $ make </br>
   $ make move
   
-## Execução
+## Para Executar O Programa
   $ ./bin/Corrida
   
 ## Informações
