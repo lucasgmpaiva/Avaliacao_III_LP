@@ -37,7 +37,7 @@ Aluno do 3º Período do curso de Bacharelado em Tecnologia da Informação (BTI
 <p> A reescrita de cada arquivo (de Sapos e Pistas) é feita: após uma corrida ser realizada, após um novo sapo ser criado, após uma nova pista ser criada e, para garantir, ao final do programa é realizada a reescrita. A escrita dos arquivos foi definida e implementada em "funcArquivos" (tanto .hpp, quanto .cpp), como "escreverArquivoSapos" e "escreverArquivoPistas".
   
 ## Informações Extras
-<p> A forma que está escrita os arquivos de informações (de sapos e pistas) é:
+<p> A forma com a qual está escrita os arquivos de informações (de sapos e pistas), para cada sapo ou pista é:
 
 #### Sapos:
 <p> 1ª Linha: Id do Sapo
