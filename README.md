@@ -36,4 +36,20 @@ Aluno do 3º Período do curso de Bacharelado em Tecnologia da Informação (BTI
 #### -> Passo 6:
 <p> A reescrita de cada arquivo (de Sapos e Pistas) é feita: após uma corrida ser realizada, após um novo sapo ser criado, após uma nova pista ser criada e, para garantir, ao final do programa é realizada a reescrita. A escrita dos arquivos foi definida e implementada em "funcArquivos" (tanto .hpp, quanto .cpp), como "escreverArquivoSapos" e "escreverArquivoPistas".
   
+## Informações Extras
+<p> A forma que está escrita os arquivos de informações (de sapos e pistas) é:
+
+#### Sapos:
+<p> 1ª Linha: Id do Sapo
+<p> 2ª Linha: Nome do Sapo
+<p> 3ª Linha: Número de Corridas Realizadas Pelo Sapo
+<p> 4ª Linha: Total de Pulos Dados Pelo Sapo
+<p> 5ª Linha: Potência de Pulo do Sapo
+<p> 6ª Linha: Número de Vitórias do Sapo
+<p> 7ª Linha: Número de Empates do Sapo
+  
+#### Pistas:
+<p> 1ª Linha: Id da Pista
+<p> 2ª Linha: Comprimento da Pista
+  
 ### <a href='https://github.com/lucasgmpaiva/Avaliacao_III_LP'> Acesse aqui o projeto no GitHub </a>
