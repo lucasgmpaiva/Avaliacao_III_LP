@@ -15,7 +15,17 @@ using namespace std;
 #include "pista.hpp"
 #include "corrida.hpp"
 
+/**
+	* @brief Funcao que cria Pista no vector de Pista
+	* @param Um vector de pistas para armazenar a nova pista
+	* @return -------
+*/
 void criarPista(vector<Pista> &pistas);
+/**
+	* @brief Funcao que pede ao usuario que selecione a pista para a corrida
+	* @param Um vector de pistas para ser exibido
+	* @return -------
+*/
 void selectPista(vector<Pista> pistas);
 
 
