@@ -13,6 +13,13 @@ Aluno do 3º Período do curso de Bacharelado em Tecnologia da Informação (BTI
   $ ./bin/Corrida
   
 ## Informações
-#### Passo 1 e 2: 
+#### ->Passo 1 e 2:
+      Ao iniciar o programa, é feita uma leitura dos arquivos de sapos e pistas. Os resultados da leitura são armazenados em seus vector's respectivos. E o vector de sapos é atribuido a uma corrida. As funções para a leitura do arquivo de sapos e para a leitura do arquivo de pistas se chamam, respectivamente, "lerArquivoSapos e "lerArquivoPistas", ambas definidas e implementadas em "opPista.hpp" e "opPista.cpp".
+#### -> Passo 3:
+      a)
+      b)
+      c)
+      d)
+      e)
 
 ### <a href='https://github.com/lucasgmpaiva/Avaliacao_III_LP'> Acesse aqui o projeto no GitHub </a>
