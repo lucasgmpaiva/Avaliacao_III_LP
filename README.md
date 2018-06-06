@@ -14,7 +14,8 @@ Aluno do 3º Período do curso de Bacharelado em Tecnologia da Informação (BTI
   
 ## Informações
 #### ->Passo 1 e 2:
-<p> Ao iniciar o programa, é feita uma leitura dos arquivos de sapos e pistas. Os resultados da leitura são armazenados em seus vector's respectivos. E o vector de sapos é atribuido a uma corrida. As funções para a leitura do arquivo de sapos e para a leitura do arquivo de pistas se chamam, respectivamente, "lerArquivoSapos e "lerArquivoPistas", ambas definidas e implementadas em "opPista.hpp" e "opPista.cpp". </br>
+<p> Ao iniciar o programa, é feita uma leitura dos arquivos de sapos e pistas. Os resultados da leitura são armazenados em seus vector's respectivos. E o vector de sapos é atribuido a uma corrida. As funções para a leitura do arquivo de sapos e para a leitura do arquivo de pistas se chamam, respectivamente, "lerArquivoSapos e "lerArquivoPistas", ambas definidas e implementadas em "opPista.hpp" e "opPista.cpp". </br> <\p>
+
 #### -> Passo 3:
 a) Para visualizar as estatísticas dos sapos, o usuário deve selecionar a opção 4 no menu principal do programa. Fazendo isso, o programa entrará num laço e exibirá as características de cada sapo, sendo que, para isso, foi feita uma sobrecarga do operador "<<" na classe Sapo. <\br>
 b) Para visualizar as estatísticas das pistas, o usuário deve selecionar a opção 5 no menu principal do programa. Fazendo isso, o programa entrará num laço e exibirá as características de cada pista, sendo que, para isso, foi feita uma sobrecarga do operador "<<" na classe Pista. <\br>
