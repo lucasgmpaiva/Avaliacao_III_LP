@@ -36,6 +36,11 @@ bool Corrida::sapoRetardado() {
 }
 
 void Corrida::realizarCorrida() {
+	this->mostrarSapos();
+	string pei;
+	cin.ignore();
+	cout << "Pressione enter para inicializar a corrida!";
+	getline(cin, pei);
 	int rank = 1;
 	int a1 = 0;
 	int a2 = 0;
