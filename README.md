@@ -13,6 +13,6 @@ Aluno do 3º Período do curso de Bacharelado em Tecnologia da Informação (BTI
   $ ./bin/Corrida
   
 ## Informações
-
+#### Passo 1 e 2: 
 
 ### <a href='https://github.com/lucasgmpaiva/Avaliacao_III_LP'> Acesse aqui o projeto no GitHub </a>
