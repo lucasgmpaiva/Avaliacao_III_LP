@@ -1,6 +1,6 @@
 /**
 * @author Lucas Gabriel Matias Paiva
-* @file opPista.hpp
+* @file main.hpp
 * @brief Cabeçalho do main - Todos os includes necessários
 * @since 04/06/18
 * @date 05/06/18

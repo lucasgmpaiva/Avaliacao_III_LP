@@ -1,0 +1,117 @@
+\hypertarget{funcArquivos_8hpp}{}\section{include/func\+Arquivos.hpp File Reference}
+\label{funcArquivos_8hpp}\index{include/func\+Arquivos.\+hpp@{include/func\+Arquivos.\+hpp}}
+
+
+Cabeçalho das funções para ler e escrever arquivos de sapos e pistas.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$fstream$>$}\newline
+{\ttfamily \#include $<$string$>$}\newline
+{\ttfamily \#include \char`\"{}sapo.\+hpp\char`\"{}}\newline
+{\ttfamily \#include \char`\"{}pista.\+hpp\char`\"{}}\newline
+Include dependency graph for func\+Arquivos.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{funcArquivos_8hpp_ada05c12ce047a033db4af7502d889857}{ler\+Arquivo\+Sapos} (vector$<$ \hyperlink{classSapo}{Sapo} $>$ \&sapos)
+\begin{DoxyCompactList}\small\item\em Funcao que lê o arquivo dos Sapos e preenche o vector de Sapos. \end{DoxyCompactList}\item 
+void \hyperlink{funcArquivos_8hpp_a7a05637e24c5e4323175f931a7355359}{escrever\+Arquivo\+Sapos} (vector$<$ \hyperlink{classSapo}{Sapo} $>$ \&sapos)
+\begin{DoxyCompactList}\small\item\em Funcao que escreve o arquivo dos Sapos com os Sapos presentes no vector. \end{DoxyCompactList}\item 
+void \hyperlink{funcArquivos_8hpp_abc2dde123f6ad12205d25faba42f14aa}{ler\+Arquivo\+Pistas} (vector$<$ \hyperlink{classPista}{Pista} $>$ \&pistas)
+\begin{DoxyCompactList}\small\item\em Funcao que lê o arquivo das Pistas e preenche o vector de Pistas. \end{DoxyCompactList}\item 
+void \hyperlink{funcArquivos_8hpp_a92b98fb2d8e88b6e0ea74776a62667e8}{escrever\+Arquivo\+Pistas} (vector$<$ \hyperlink{classPista}{Pista} $>$ \&pistas)
+\begin{DoxyCompactList}\small\item\em Funcao que escreve o arquivo das Pistas com as Pistas presentes no vector. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Cabeçalho das funções para ler e escrever arquivos de sapos e pistas. 
+
+\begin{DoxyAuthor}{Author}
+Lucas Gabriel Matias Paiva
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+04/06/18 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+05/06/18 
+\end{DoxyDate}
+
+
+\subsection{Function Documentation}
+\mbox{\Hypertarget{funcArquivos_8hpp_a92b98fb2d8e88b6e0ea74776a62667e8}\label{funcArquivos_8hpp_a92b98fb2d8e88b6e0ea74776a62667e8}} 
+\index{func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}!escrever\+Arquivo\+Pistas@{escrever\+Arquivo\+Pistas}}
+\index{escrever\+Arquivo\+Pistas@{escrever\+Arquivo\+Pistas}!func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}}
+\subsubsection{\texorpdfstring{escrever\+Arquivo\+Pistas()}{escreverArquivoPistas()}}
+{\footnotesize\ttfamily void escrever\+Arquivo\+Pistas (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{classPista}{Pista} $>$ \&}]{pistas }\end{DoxyParamCaption})}
+
+
+
+Funcao que escreve o arquivo das Pistas com as Pistas presentes no vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Vector} & de Pistas à ser escrito \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/-\/-\/-\/--- 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funcArquivos_8hpp_a7a05637e24c5e4323175f931a7355359}\label{funcArquivos_8hpp_a7a05637e24c5e4323175f931a7355359}} 
+\index{func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}!escrever\+Arquivo\+Sapos@{escrever\+Arquivo\+Sapos}}
+\index{escrever\+Arquivo\+Sapos@{escrever\+Arquivo\+Sapos}!func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}}
+\subsubsection{\texorpdfstring{escrever\+Arquivo\+Sapos()}{escreverArquivoSapos()}}
+{\footnotesize\ttfamily void escrever\+Arquivo\+Sapos (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{classSapo}{Sapo} $>$ \&}]{sapos }\end{DoxyParamCaption})}
+
+
+
+Funcao que escreve o arquivo dos Sapos com os Sapos presentes no vector. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Vector} & de Sapos à ser escrito \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/-\/-\/-\/--- 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funcArquivos_8hpp_abc2dde123f6ad12205d25faba42f14aa}\label{funcArquivos_8hpp_abc2dde123f6ad12205d25faba42f14aa}} 
+\index{func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}!ler\+Arquivo\+Pistas@{ler\+Arquivo\+Pistas}}
+\index{ler\+Arquivo\+Pistas@{ler\+Arquivo\+Pistas}!func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}}
+\subsubsection{\texorpdfstring{ler\+Arquivo\+Pistas()}{lerArquivoPistas()}}
+{\footnotesize\ttfamily void ler\+Arquivo\+Pistas (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{classPista}{Pista} $>$ \&}]{pistas }\end{DoxyParamCaption})}
+
+
+
+Funcao que lê o arquivo das Pistas e preenche o vector de Pistas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Vector} & de Pistas à ser preenchido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/-\/-\/-\/--- 
+\end{DoxyReturn}
+\mbox{\Hypertarget{funcArquivos_8hpp_ada05c12ce047a033db4af7502d889857}\label{funcArquivos_8hpp_ada05c12ce047a033db4af7502d889857}} 
+\index{func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}!ler\+Arquivo\+Sapos@{ler\+Arquivo\+Sapos}}
+\index{ler\+Arquivo\+Sapos@{ler\+Arquivo\+Sapos}!func\+Arquivos.\+hpp@{func\+Arquivos.\+hpp}}
+\subsubsection{\texorpdfstring{ler\+Arquivo\+Sapos()}{lerArquivoSapos()}}
+{\footnotesize\ttfamily void ler\+Arquivo\+Sapos (\begin{DoxyParamCaption}\item[{vector$<$ \hyperlink{classSapo}{Sapo} $>$ \&}]{sapos }\end{DoxyParamCaption})}
+
+
+
+Funcao que lê o arquivo dos Sapos e preenche o vector de Sapos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Vector} & de Sapos à ser preenchido \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+-\/-\/-\/-\/--- 
+\end{DoxyReturn}

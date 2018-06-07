@@ -6,6 +6,7 @@ OBJS = sapo.o pista.o corrida.o opPista.o funcArquivos.o main.o
 
 $(PROG) : $(OBJS)
 	$(CC) $(OBJS) -o bin/$(PROG)
+	mv *.o build/
 
 main.o :
 	$(CC) $(CPPFALGS) -c src/main.cpp
@@ -24,9 +25,6 @@ opPista.o : include/opPista.hpp
 
 funcArquivos.o : include/funcArquivos.hpp
 	$(CC) $(CPPFLAGS) -c -std=c++11  src/funcArquivos.cpp
-
-move:
-	mv *.o build/
 
 clean:
 	rm -f build/*.o

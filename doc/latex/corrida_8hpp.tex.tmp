@@ -1,0 +1,33 @@
+\hypertarget{corrida_8hpp}{}\section{include/corrida.hpp File Reference}
+\label{corrida_8hpp}\index{include/corrida.\+hpp@{include/corrida.\+hpp}}
+
+
+Cabeçalho da classe corrida que define como será a corrida.  
+
+
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include \char`\"{}sapo.\+hpp\char`\"{}}\newline
+Include dependency graph for corrida.\+hpp\+:
+% FIG 0
+This graph shows which files directly or indirectly include this file\+:
+% FIG 1
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classCorrida}{Corrida}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Cabeçalho da classe corrida que define como será a corrida. 
+
+\begin{DoxyAuthor}{Author}
+Lucas Gabriel Matias Paiva
+\end{DoxyAuthor}
+\begin{DoxySince}{Since}
+29/05/18 
+\end{DoxySince}
+\begin{DoxyDate}{Date}
+04/06/18 
+\end{DoxyDate}

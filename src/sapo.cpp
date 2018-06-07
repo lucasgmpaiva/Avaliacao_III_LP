@@ -151,6 +151,7 @@ ostream& operator << (ostream &o, Sapo &sapo){
 			<< "ID: " << sapo.getId() << endl
 			<< "Corridas Realizadas: " << sapo.getCorridasRealizadas() << endl
 			<< "Vitorias: " << sapo.getVitorias() << endl
+			<< "Empates: " << sapo.getEmpates() << endl
 			<< "Potência: " << sapo.getSaltoMaximo() << endl
 			<< "Total de Pulos: " << sapo.getTotalPulos() << endl
 			<< "|_____________________________________________|" << endl;
