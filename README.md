@@ -1,4 +1,4 @@
-# AtividadeCorridaSapos
+# Avaliação III - LP I - Corrida de Sapos
 Avaliação que consiste na criação de um programa que realize uma corrida de sapos. A nota da avaliação irá compor a nota da 3ª unidade da matéria de Linguagem de Programação I (LP I).
 
 ## Desenvolvedor
